@@ -1,0 +1,4 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+echo "┏━━━ 🕵🏾‍♀️ Checking Commit Message ━━━━━━━━━━━━━━━━━━━"
+npx --no-install commitlint --edit ""

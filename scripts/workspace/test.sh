@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+echo "┏━━━ 🎯 Testing ━━━━━━━━━━━━━━━━━━━"
+yarn lerna run test --stream --concurrency 1
