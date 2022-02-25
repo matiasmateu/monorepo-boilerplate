@@ -1,6 +1,12 @@
 {
-  "extends": "expo/tsconfig.base",
-  "compilerOptions": {
-    "strict": true
+    "extends": "../tsconfig.settings.json",
+    "compilerOptions": {
+      "jsx": "react",
+      "composite": true,
+      "outDir": "dist",
+      "rootDir": "src",
+      "skipLibCheck": true
+    },
+    "include": ["src"]
   }
-}
+  
