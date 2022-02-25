@@ -10,6 +10,7 @@
     "packages/*"
   ],
   "scripts": {
+    "start": "scripty",
     "build": "scripty",
     "clean": "scripty",
     "lint": "scripty",
