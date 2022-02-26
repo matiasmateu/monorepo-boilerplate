@@ -1,8 +1,7 @@
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import Button  from '@ignitus/ui/src/Button';
-import SecondaryButton  from '@ignitus/ui/src/SecondaryButton';
+import { Button, SecondaryButton }  from '@ignitus/ui';
 
 export default function App() {
   return (

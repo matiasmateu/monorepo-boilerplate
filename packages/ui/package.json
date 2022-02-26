@@ -13,6 +13,9 @@
     "test": "jest",
     "build": "tsc -b ."
   },
+  "scripty": {
+    "path": "../../scripts/packages"
+  },
   "repository": "https://github.com/matiasmateu/monorepo-boilerplate.git",
   "author": "matias_mateu@icloud.com",
   "license": "MIT",
@@ -22,6 +25,7 @@
     "typescript": "^4.5.5"
   },
   "dependencies": {
-    "native-base": "^3.3.7"
+    "react": "17.0.1",
+    "react-native": "0.64.3"
   }
 }

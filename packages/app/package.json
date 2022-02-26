@@ -19,6 +19,9 @@
     "test": "echo No tests yet",
     "build": "echo Work in Progress"
   },
+  "scripty": {
+    "path": "../../scripts/packages"
+  },
   "dependencies": {
     "@ignitus/data": "^1.0.0",
     "@ignitus/ui": "^1.0.0",
